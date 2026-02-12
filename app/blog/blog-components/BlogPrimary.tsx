@@ -16,8 +16,8 @@ export default function BlogPrimary(){
             <div className="flex justify-center lg:justify-start lg:ml-30">
               <div className="relative w-[38%] sm:w-full sm:max-w-137.5 aspect-[2.8/4] overflow-hidden rounded-t-full">
                 <img
-                  src="/blog.jpg"
-                  alt="Reading and reflection"
+                  src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=1200&fit=crop&q=80"
+                  alt="Person reading and journaling for self-reflection"
                   className="w-full h-full object-cover brightness-104 contrast-92"
                 />
               </div>

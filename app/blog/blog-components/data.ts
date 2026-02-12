@@ -2,7 +2,7 @@ export const posts = [
   {
     slug: "blog-post-one",
     title: "When Anxiety Doesn’t Look Like Anxiety",
-    image:"/blog-1.jpg",
+    image:"https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=900&fit=crop&q=80",
     date: "Jan 1, 2026",
     content: [
       "Many people imagine anxiety as something obvious racing thoughts, panic attacks or constant worry. Yet for many high-functioning adults, anxiety can be far quieter. It often hides beneath competence and responsibility, showing up as perfectionism, over-preparing, difficulty resting, or a persistent sense that something could go wrong.",
@@ -16,7 +16,7 @@ export const posts = [
   {
     slug: "blog-post-two",
     title: "Understanding Burnout Before It Consumes You",
-    image:"/blog-2.jpg",
+    image:"https://images.unsplash.com/photo-1499810631641-541e76d678a2?w=1200&h=900&fit=crop&q=80",
     date: "Dec 2, 2025",
     content: [
       "Burnout rarely happens overnight. More often, it develops gradually — the quiet accumulation of prolonged stress, high expectations, and the habit of pushing forward despite mounting exhaustion.",
@@ -31,7 +31,7 @@ export const posts = [
   {
     slug: "blog-post-three",
     title: "When “Functioning” Isn’t the Same as Thriving",
-    image:"/blog-3.jpg",
+    image:"https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=1200&h=900&fit=crop&q=80",
     date: "Sept 15, 2025",
     content: [
       "From the outside, your life may appear steady. You meet responsibilities, maintain relationships, and continue achieving what is asked of you. Others may even describe you as dependable or resilient.",
@@ -46,7 +46,7 @@ export const posts = [
   {
     slug: "blog-post-four",
     title: "Learning to Feel Safe Again",
-    image:"/blog-4.jpg",
+    image:"https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=1200&h=900&fit=crop&q=80",
     date: "Mar 31, 2025",
     content: [
       "A sense of safety is foundational to emotional wellbeing. When we feel safe, the nervous system can settle, relationships feel more accessible, and the future appears less threatening.",
