@@ -1,8 +1,8 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 
-import { useReveal } from "@/app/Components/hooks/useReveal";
-import Animated from "@/app/Components/hooks/Animated";
+import { useReveal } from "../../Components/hooks/useReveal";
+import Animated from "../../Components/hooks/Animated";
 
 export default function ContactPrimary() {
   const {ref,show}=useReveal(80);

@@ -1,7 +1,7 @@
 "use client";
 
-import Animated from "@/app/Components/hooks/Animated";
-import { useReveal } from "@/app/Components/hooks/useReveal";
+import Animated from "../../Components/hooks/Animated";
+import { useReveal } from "../../Components/hooks/useReveal";
 
 /* eslint-disable @next/next/no-img-element */
 

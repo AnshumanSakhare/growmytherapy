@@ -1,7 +1,7 @@
 "use client";
 
-import { useReveal } from "@/app/Components/hooks/useReveal";
-import Animated from "@/app/Components/hooks/Animated";
+import { useReveal } from "../../Components/hooks/useReveal";
+import Animated from "../../Components/hooks/Animated";
 
 export default function ContactMap(){
   const {ref,show}=useReveal(80);

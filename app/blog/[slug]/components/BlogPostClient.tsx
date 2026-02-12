@@ -1,7 +1,7 @@
 "use client";
 import Footer from "@/app/Components/Footer";
-import Animated from "@/app/Components/hooks/Animated";
-import { useReveal } from "@/app/Components/hooks/useReveal";
+import Animated from "../../../Components/hooks/Animated";
+import { useReveal } from "../../../Components/hooks/useReveal";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 type Post={

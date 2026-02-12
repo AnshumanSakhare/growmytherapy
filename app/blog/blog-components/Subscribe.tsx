@@ -1,8 +1,8 @@
 
 "use client";
 
-import Animated from "@/app/Components/hooks/Animated";
-import { useReveal } from "@/app/Components/hooks/useReveal";
+import Animated from "../../Components/hooks/Animated";
+import { useReveal } from "../../Components/hooks/useReveal";
 import React, {useState} from "react";
 
 export default function Subscribe(){

@@ -3,8 +3,8 @@
 
 import { useCallback, useEffect, useState } from "react";
 import Lightbox from "./Lightbox";
-import { useReveal } from "@/app/Components/hooks/useReveal";
-import Animated from "@/app/Components/hooks/Animated";
+import { useReveal } from "../../Components/hooks/useReveal";
+import Animated from "../../Components/hooks/Animated";
 
 export default function ContactSocial() {
   const {ref,show}=useReveal(0);
