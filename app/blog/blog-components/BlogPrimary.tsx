@@ -1,0 +1,43 @@
+"use client";
+
+import Animated from "@/app/Components/hooks/Animated";
+import { useReveal } from "@/app/Components/hooks/useReveal";
+
+/* eslint-disable @next/next/no-img-element */
+
+
+export default function BlogPrimary(){
+  const{ref,show}=useReveal(80);
+  return(
+    <section className="bg-secondary text-primary pt-40 pb-32" ref={ref}>
+      <div className="mx-auto max-w-450 section-x">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-6 lg:gap-8 items-center">
+          <Animated show={show} delay={120}>
+            <div className="flex justify-center lg:justify-start lg:ml-30">
+              <div className="relative w-[38%] sm:w-full sm:max-w-137.5 aspect-[2.8/4] overflow-hidden rounded-t-full">
+                <img
+                  src="/blog.jpg"
+                  alt="Reading and reflection"
+                  className="w-full h-full object-cover brightness-104 contrast-92"
+                />
+              </div>
+            </div>
+          </Animated>
+
+          <div className="text-center lg:text-left flex flex-col items-center lg:items-start lg:pl-6">
+            <Animated show={show} delay={120}>
+              <h1 className="font-medium text-primary leading-[1.12] text-[clamp(2.2rem,8vw,3rem)] sm:text-[calc(3vw+1rem)] mb-10">
+                Understanding Yourself More Deeply
+              </h1>
+            </Animated>
+            <Animated show={show} delay={220}>
+              <p className="font-normal text-[1.5rem] md:text-[1.75rem] leading-[1.7] max-w-[55ch] mb-4">
+                {`A collection of practical insights, gentle reflections and evidence-based strategies to support emotional wellbeing. These resources are designed to help you better understand yourself, navigate life's challenges, and move toward lasting change.`}
+              </p>
+            </Animated>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
