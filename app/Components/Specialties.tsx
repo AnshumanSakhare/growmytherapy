@@ -6,17 +6,17 @@ const specialties = [
   {
     title: "Anxiety & Stress",
     text:(<>My work often focuses on anxiety, panic, and burnout. I help clients who feel "functional" on the outside but are struggling with constant worry, tension, and difficulty sleeping. Together, we'll work to understand the root of your anxiety and develop practical tools to help you feel more regulated in your daily life.</>),
-    image: "https://placehold.co/300x300/e8e4d9/5e8b7e",
+    image: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=600&h=600&fit=crop&q=80",
   },
   {
     title: "Trauma & PTSD",
     text:(<>I work with adults who have experienced single-incident trauma as well as more complex, long-standing patterns that may stem from childhood, relationships, or chronic stress. My approach is paced carefully, with an emphasis on safety, stabilization, and helping you feel more regulated in your daily life—not just during sessions.</>),
-    image: "https://placehold.co/300x300/f7f9f9/5e8b7e",
+    image: "https://images.unsplash.com/photo-1502139214982-d0ad755818d8?w=600&h=600&fit=crop&q=80",
   },
   {
     title: "Burnout & Perfectionism",
     text:(<>I frequently support clients dealing with professional burnout, perfectionism, and high internal pressure. Many are entrepreneurs, creatives, or professionals who feel disconnected from themselves after years of pushing through stress. Therapy can become a space to slow down, reconnect, and develop more sustainable ways of living and working.</>),
-    image: "https://placehold.co/300x300/5e8b7e/f7f9f9",
+    image: "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=600&h=600&fit=crop&q=80",
   },
 ];
 

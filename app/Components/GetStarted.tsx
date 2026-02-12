@@ -7,7 +7,7 @@ import { useReveal } from "./hooks/useReveal";
 export default function GetStarted(){
   const {ref,show}=useReveal(80);
   return (
-    <section className="bg-accent bg-[url('https://placehold.co/1920x1080/e8e4d9/5e8b7e')] bg-cover bg-no-repeat" ref={ref}>
+    <section className="bg-accent bg-[url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1920&h=1080&fit=crop&q=80')] bg-cover bg-no-repeat" ref={ref}>
       <div className="min-h-125 md:min-h-150 lg:min-h-175 flex items-center justify-center px-4 sm:px-[3vw] bg-black/55">
         <div className="text-center max-w-[92%] sm:max-w-237.5 m-10">
           <Animated show={show} delay={0}>

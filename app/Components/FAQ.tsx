@@ -39,7 +39,7 @@ export default function FAQ(){
           <div className="relative flex justify-center mb-8 sm:mb-0">
             <Animated show={show} delay={120}>
               <div className="mx-auto w-[45%] sm:w-full aspect-[2.8/5] sm:h-120 lg:h-205 overflow-hidden rounded-t-full">
-                <img src="https://placehold.co/400x550/e8e4d9/5e8b7e" alt="A calming nature image" className="w-full h-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=1200&fit=crop&q=80" alt="Serene nature landscape promoting peace and reflection" className="w-full h-full object-cover" />
               </div>
             </Animated>
           </div>
