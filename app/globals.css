@@ -1,52 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 @import "tailwindcss";
-
-@font-face {
-  font-family: "Otelios";
-  src: url("/fonts/Otelios-Regular.otf")format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Otelios";
-  src: url("/fonts/Otelios-Semibold.otf")format("truetype");
-  font-weight: 500;
-  font-style: medium;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gopher";
-  src: url("/fonts/gopher/Gopher-Regular.woff2")format("woff2"),
-      url("/fonts/gopher/Gopher-Regular.woff")format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Gopher";
-  src: url("/fonts/gopher/Gopher-Medium.woff2")format("woff2"),
-      url("/fonts/gopher/Gopher-Medium.woff")format("woff");
-  font-weight: 500;
-  font-style: medium;
-  font-display: swap;
-}
 
 html,
 body {
   overflow-x: hidden;
   max-width:100%;
-  font-family: "Otelios",serif,"Gopher";
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
 :root {
-  --color-primary:#0e1838;
-  --color-secondary: #F7F9FC;
-  --color-muted:#E6EAF2;
-  --color-accent:#2F3E63;
-  --color-accent-soft:#d1dde9;
+  --color-primary: #5e8b7e;
+  --color-secondary: #f7f9f9;
+  --color-muted: #e8e4d9;
+  --color-accent: #87ceeb;
+  --color-accent-soft: #b0e0e6;
 }
 
 @theme inline {
