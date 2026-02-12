@@ -99,19 +99,19 @@ export default function Header() {
 
   return (
     <>
-      <header className={`header text-primary relative z-50 ${isContact ? "bg-accent-soft":isPost?"bg-muted":"bg-secondary"}`}>
-        <div className="header-inner slide-in w-full max-w-[100vw] overflow-hidden">
-          <div className={`${headerBar} md:flex-row flex-row-reverse`}>
+      <header className={`header text-primary relative z-50 w-full ${isContact ? "bg-accent-soft":isPost?"bg-muted":"bg-secondary"}`}>
+        <div className="header-inner slide-in w-full overflow-hidden">
+          <div className={`${headerBar} md:flex-row flex-row-reverse max-w-full`}>
             <Link
               href="/"
-              className="font-medium leading-tight text-[calc((2-1)*1.2vw+1rem)] text-primary"
+              className="font-medium leading-tight text-[calc((2-1)*1.2vw+1rem)] text-primary whitespace-nowrap"
             >
               Dr. Maya Reynolds, PsyD
             </Link>
 
-            <nav className="hidden md:flex gap-12 leading-tight text-primary text-[calc((1.35-1)*1.2vw+1rem)]">
-              <Link href="/blog" className={`${isBlog?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"}`}>Blog</Link>
-              <Link href="/contact"className={`${isContact?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"}`}>Contact</Link>
+            <nav className="hidden md:flex gap-8 lg:gap-12 leading-tight text-primary text-[calc((1.35-1)*1.2vw+1rem)]">
+              <Link href="/blog" className={`${isBlog?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"} whitespace-nowrap`}>Blog</Link>
+              <Link href="/contact"className={`${isContact?"underline underline-offset-8":"hover:opacity-60 cursor-pointer"} whitespace-nowrap`}>Contact</Link>
             </nav>
             <div className="md:hidden">
               <MenuToggle open={menuOpen} onClick={() => setMenuOpen(!menuOpen)} />

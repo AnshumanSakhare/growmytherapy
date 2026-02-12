@@ -6,7 +6,7 @@ import ContactSocial from "./contact-components/ContactSocial";
 
 export default function ContactPage() {
   return (
-    <main>
+    <main className="w-full overflow-x-hidden">
       <ContactPrimary />
       <ContactSecondary />
       <ContactMap />

@@ -11,7 +11,7 @@ import Tertiary from "./Components/Tertiary";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full overflow-x-hidden">
         <Primary />
         <Secondary />
         <Specialties />

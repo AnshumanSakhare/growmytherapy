@@ -6,7 +6,7 @@ import Subscribe from "./blog-components/Subscribe";
 
 export default function BlogPage(){
   return (
-    <main>
+    <main className="w-full overflow-x-hidden">
       <BlogPrimary />
       <BlogPosts />
       <Subscribe />
