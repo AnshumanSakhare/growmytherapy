@@ -9,10 +9,10 @@ import Animated from "../../Components/hooks/Animated";
 export default function ContactSocial() {
   const {ref,show}=useReveal(0);
   const images = [
-    "/post-1.jpg",
-    "/post-2.jpg",
-    "/post-3.jpg",
-    "/post-4.jpg",
+    "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=600&h=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1447875569765-2b3db822bec9?w=600&h=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?w=600&h=600&fit=crop&q=80",
   ];
 
   const [active, setActive] = useState<number | null>(null);

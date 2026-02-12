@@ -28,7 +28,7 @@ export default function ContactPrimary() {
                 <div className="w-42.5 h-69 sm:w-72 sm:h-110 overflow-hidden rounded-t-full">
                   <img
                     src="/office-2.jpeg"
-                    alt="Comfortable and welcoming therapy office"
+                    alt="Comfortable and welcoming therapy office in Santa Monica"
                     className="w-full h-full object-cover brightness-85 contrast-75 saturate-85 blur-[0.3px]"
                   />
               </div>
@@ -36,9 +36,9 @@ export default function ContactPrimary() {
               <Animated show={show} delay={320}>
                 <div className="absolute -bottom-10 -right-5 w-25 h-25 sm:-bottom-10 sm:-right-12 sm:w-40 sm:h-40 rounded-full overflow-hidden">
                   <img
-                    src="/contact.jpg"
-                    alt="Hands holding a warm cup of tea, symbolizing comfort and safety"
-                    className="w-full h-full object-cover brightness-95 contrast-90 saturate-75"
+                    src="/flowerpot.webp"
+                    alt="Soft pink flowers symbolizing growth and healing"
+                    className="w-full h-full object-cover brightness-105 contrast-95 saturate-110"
                   />
                 </div>
               </Animated>
