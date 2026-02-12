@@ -13,7 +13,7 @@ export default function Primary(){
 
         <Animated show={show} delay={0}>
           <div className="relative mx-auto w-[70%] sm:w-[60%] md:w-[55%] lg:w-[85%] aspect-[2.8/4] overflow-hidden rounded-t-[999px]">
-            <img src="https://placehold.co/600x400/5e8b7e/f7f9f9" alt="A calming nature scene" className="w-full h-full object-cover object-contain"/>
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=1200&fit=crop&q=80" alt="Peaceful mountain landscape at sunrise" className="w-full h-full object-cover object-contain"/>
           </div>
         </Animated>
 

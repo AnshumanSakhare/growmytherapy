@@ -26,8 +26,8 @@ export default function Tertiary() {
         <Animated show={show} delay={180}>
             <div className="relative h-[34vh] sm:h-[50vh] lg:min-h-full overflow-hidden">
               <Image
-                src="https://placehold.co/600x800/e8e4d9/5e8b7e"
-                alt="A peaceful nature scene"
+                src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&h=1600&fit=crop&q=80"
+                alt="Tranquil ocean sunset representing peace and clarity"
                 fill
                 className="object-cover"
                 priority

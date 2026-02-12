@@ -52,8 +52,8 @@ export default function Secondary() {
         <Animated show={show} delay={180}>
           <div className="relative order-first lg:order-0 h-[32vh] sm:h-[45vh] lg:min-h-full overflow-hidden">
             <Image
-              src="https://placehold.co/600x400/e8e4d9/5e8b7e"
-              alt="A tranquil image of a misty forest"
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&h=800&fit=crop&q=80"
+              alt="Serene misty forest path symbolizing the journey of healing"
               fill
               className="object-cover"
               priority

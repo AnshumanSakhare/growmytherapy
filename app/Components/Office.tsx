@@ -26,8 +26,8 @@ export default function Office(){
           </Animated>
           <Animated show={show} delay={200}>
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://placehold.co/300x400/e8e4d9/5e8b7e" alt="A calm and inviting therapy office" className="rounded-lg"/>
-              <img src="https://placehold.co/300x400/f7f9f9/5e8b7e" alt="A calm and inviting therapy office" className="rounded-lg"/>
+              <img src="/office-1.jpeg" alt="Calm and welcoming therapy office in Santa Monica" className="rounded-lg"/>
+              <img src="/office-2.jpeg" alt="Comfortable therapy space with natural light" className="rounded-lg"/>
             </div>
           </Animated>
         </div>

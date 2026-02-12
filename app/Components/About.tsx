@@ -42,7 +42,7 @@ export default function About(){
           <div className="flex justify-center w-full pb-10">
             <Animated show={show} delay={120}>
             <div className="mx-auto w-[52%] sm:w-[55%] lg:w-[64%] aspect-[3.5/5] overflow-hidden rounded-xl">
-              <img src="https://placehold.co/400x550/5e8b7e/f7f9f9" alt="Dr. Maya Reynolds" className="w-full h-full object-cover object-center" />
+              <img src="/dr-maya-reynolds.png" alt="Dr. Maya Reynolds, Licensed Clinical Psychologist" className="w-full h-full object-cover object-center" />
             </div>
           </Animated>
           </div>
