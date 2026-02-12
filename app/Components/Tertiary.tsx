@@ -5,11 +5,11 @@ import { useReveal } from "./hooks/useReveal";
 import Image from "next/image";
 
 const items=[
-  <>Constant <strong className="text-[1.25rem] text-primary">overthinking</strong> that makes it difficult to fully relax</>,
-  <>Holding yourself to <strong className="text-[1.25rem] text-primary">exceptionally high standards</strong> while quietly feeling exhausted</>,
-  <>Struggling to slow down without <strong className="text-[1.25rem] text-primary">guilt</strong></>,
-  <>Appearing capable on the outside while internally feeling <strong className="text-[1.25rem] text-primary">stretched thin</strong></>,
-  <>Noticing how past experiences continue to shape your reactions, relationships, or <strong className="text-[1.25rem] text-primary">sense of safety</strong></>
+  <>Feeling <strong className="text-[1.25rem] text-primary">overwhelmed, stuck, or emotionally on edge</strong></>,
+  <>Struggling with <strong className="text-[1.25rem] text-primary">constant worry, tension, or difficulty sleeping</strong></>,
+  <>Navigating the impact of <strong className="text-[1.25rem] text-primary">earlier life experiences</strong> on your relationships and confidence</>,
+  <>Feeling <strong className="text-[1.25rem] text-primary">disconnected from yourself</strong> after years of pushing through stress</>,
+  <>Dealing with <strong className="text-[1.25rem] text-primary">professional burnout, perfectionism, or high internal pressure</strong></>
 ];
 
 
@@ -26,8 +26,8 @@ export default function Tertiary() {
         <Animated show={show} delay={180}>
             <div className="relative h-[34vh] sm:h-[50vh] lg:min-h-full overflow-hidden">
               <Image
-                src="/hero-3.jpg"
-                alt=""
+                src="https://placehold.co/600x800/e8e4d9/5e8b7e"
+                alt="A peaceful nature scene"
                 fill
                 className="object-cover"
                 priority
@@ -42,12 +42,12 @@ export default function Tertiary() {
             <div className="max-w-200 px-6 sm:px-0">
               <Animated show={show} delay={0}>
                 <h1 className="mb-2 heading-lg text-primary/95 tracking-tight">
-                  {`When you're used to holding it all together.`}
+                  Do any of these feel familiar?
                 </h1>
               </Animated>
 
               <p className="mt-4 body-lg text-primary">
-                {`You may recognize parts of yourself in some of these experiences:`}
+                You're not alone. Many of us struggle with these challenges.
               </p>
               <ul className="mt-5 mb-6 pl-4 space-y-2 body-md leading-[1.45] text-primary/90">
                 {items.map((item,i)=>(
@@ -66,7 +66,7 @@ export default function Tertiary() {
 
               <Animated show={show} delay={220}>
                 <p className="mt-3 sm:mt-4 body-lg text-primary/95">
-                  {`If you're used to holding everything together while feeling overwhelmed inside, therapy can offer a confidential space to slow down, feel supported and develop a steadier, more self-trusting way of moving through life.`}
+                  Therapy can provide a space to slow down, reconnect with yourself, and develop more sustainable ways of living and working.
                 </p>
               </Animated>
             </div>
@@ -75,7 +75,7 @@ export default function Tertiary() {
           <Animated show={show} delay={320}>
             <div className="border-t border-primary/50 mt-10 sm:mt-0">
               <CTAButton className="w-full py-8 text-sm font-medium tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
-                Begin Therapy
+                Take the First Step
               </CTAButton>
             </div>
           </Animated>

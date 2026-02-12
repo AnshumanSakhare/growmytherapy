@@ -14,29 +14,26 @@ export default function About(){
             <div className="px-1 sm:px-0">
               <Animated show={show} delay={120}>
                 <h2 className="heading-xl text-primary">
-                  Meet Dr. Maya Reynolds, PsyD
+                  About Dr. Maya Reynolds, a Santa Monica Psychologist
                 </h2>
-                <p className="mt-5 text-[0.9rem] text-primary/75">Licensed Clinical Psychologist | PsyD</p>
+                <p className="mt-5 text-[0.9rem] text-primary/75">Licensed Clinical Psychologist in Santa Monica, CA</p>
               </Animated>
               
               <p className="mt-10 body-md leading-[1.55] sm:leading-[1.7] text-primary/90 transition-all duration-500 ease-out">
-                Dr. Maya Reynolds, PsyD, is a <strong className="text-[1.25rem] text-primary">licensed clinical psychologist</strong> based in <strong className="text-primary">Santa Monica</strong>, specializing in therapy for adults navigating anxiety, trauma and burnout. Her work integrates <strong className="text-[1.25rem] text-primary">evidence-based therapies</strong> with a warm, collaborative approach creating a space where clients feel both supported and meaningfully challenged in their growth.
+                I'm a licensed clinical psychologist in <strong className="text-[1.25rem] text-primary">Santa Monica, California</strong>, offering therapy for adults who feel overwhelmed by anxiety, stress, or the lingering effects of past experiences. Many of the people I work with are <strong className="text-[1.25rem] text-primary">high-achieving, thoughtful, and self-aware</strong>—but internally feel exhausted, stuck in overthinking, or emotionally on edge.
               </p>
               <p className="mt-6 body-md leading-[1.55] sm:leading-[1.7] text-primary/90 transition-all duration-500 ease-out">
-                Whether you&apos;re feeling persistently overwhelmed, struggling with internal pressure, or processing past experiences, therapy can help you develop deeper insight, strengthen resilience, and move toward a more sustainable way of living.
+                My goal is not just symptom relief, but helping you develop insight, resilience, and a stronger relationship with yourself over time. If you're looking for a therapist who combines practical tools with depth-oriented work—and who understands the realities of living and working in a fast-paced environment—I may be a good fit.
               </p>
               <p className="mt-3 body-md leading-[1.55] sm:leading-[1.7] text-primary/90 transition-all duration-500 ease-out">
-                Dr. Reynolds is particularly experienced in working with <strong className="text-[1.25rem] text-primary">high-achieving professionals</strong> seeking greater emotional clarity and lasting change.
-              </p>
-              <p className="mt-3 body-md leading-[1.55] sm:leading-[1.7] text-primary/90 transition-all duration-500 ease-out">
-                <strong className="text-[1.25rem] text-primary">In-person therapy</strong> in Santa Monica and <strong className="text-[1.25rem] text-primary">secure telehealth sessions across California.</strong>
+                I offer both in-person therapy from my Santa Monica office and secure telehealth sessions for clients located in California.
               </p>
             </div>
 
             <Animated show={show} delay={220}>
               <div className="-mb-5 mt-12 sm:mt-35 flex justify-center">
                 <CTAButton className="border border-primary px-6 py-3 text-[1.1rem] tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
-                  Schedule a Consultation
+                  Request a Consultation
                 </CTAButton>
               </div>
             </Animated>
@@ -45,7 +42,7 @@ export default function About(){
           <div className="flex justify-center w-full pb-10">
             <Animated show={show} delay={120}>
             <div className="mx-auto w-[52%] sm:w-[55%] lg:w-[64%] aspect-[3.5/5] overflow-hidden rounded-xl">
-              <img src="/Dr. Maya Reynolds.png" alt="" className="w-full h-full object-cover object-center" />
+              <img src="https://placehold.co/400x550/5e8b7e/f7f9f9" alt="Dr. Maya Reynolds" className="w-full h-full object-cover object-center" />
             </div>
           </Animated>
           </div>

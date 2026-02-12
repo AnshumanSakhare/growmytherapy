@@ -20,23 +20,21 @@ export default function Secondary() {
             <div className="max-w-210 px-6 py-4 sm:py-8 sm:px-0">
               <Animated show={show} delay={0}>
                 <h1 className="heading-lg text-primary ">
-                  When life looks composed on the outside, but feels overwhelming within.
+                  You don't have to navigate life's challenges alone.
                 </h1>
               </Animated>
                 <Animated show={show} delay={120}>
                   <p className="mt-4 body-md text-primary/95">
-                    You may appear capable and composed to others while privately carrying <strong className="text-[1.2rem] text-primary">anxiety</strong>,{" "}
-                    <strong className="text-[1.2rem] text-primary">emotional exhaustion</strong>, or the lingering impact of past experiences. Many of the adults I work with are <strong className="text-[1.2rem] text-primary">high-achieving professionals</strong> who feel caught in cycles of overthinking, burnout, perfectionism, or constant internal pressure.
+                    Feeling overwhelmed, stuck in overthinking, or emotionally on edge? You're not alone. Many high-achieving adults feel "functional" on the outside while struggling internally. I specialize in helping individuals in <strong className="text-[1.2rem] text-primary">Santa Monica</strong> and across <strong className="text-[1.2rem] text-primary">California</strong> find relief from <strong className="text-[1.2rem] text-primary">anxiety, trauma, and burnout</strong>.
                   </p>
                   <p className="mt-4 body-md text-primary/95">
-                    Therapy offers a <strong className="text-[1.2rem] text-primary">confidential space</strong> to slow down, gain clarity, and better understand both the emotional and physiological patterns shaping your experience. Together, we focus on helping you feel more <strong className="text-[1.2rem] text-primary">grounded</strong>, <strong className="text-[1.2rem] text-primary">resilient</strong>, and equipped to move through life with greater steadiness.
+                    My approach is warm, collaborative, and grounded in evidence-based methods like <strong className="text-[1.2rem] text-primary">CBT and EMDR</strong>. Together, we'll create a safe space for you to slow down, reconnect with yourself, and develop practical tools to build a more sustainable and fulfilling life.
                   </p>
                 </Animated>
 
                 <Animated show={show} delay={220}>
                   <p className="mt-3 body-md text-primary/95">
-                    Change does not require you to fall apart first - it begins with awareness, support and the right therapeutic relationship.{" "} 
-                    <strong className="text-[1.2rem] text-primary">Dr. Reynolds</strong> integrates evidence-based therapies tailored to the needs of each client.
+                    If you're looking for a therapist who combines practical tools with depth-oriented work, I may be a good fit.
                   </p>
                 </Animated>
             </div>
@@ -45,7 +43,7 @@ export default function Secondary() {
           <Animated show={show} delay={320}>
             <div className="border-t border-primary/40 mt-35 sm:mt-0">
               <CTAButton className="w-full py-6 text-[1rem] font-medium tracking-wide text-primary transition-colors duration-500 ease-in-out hover:bg-primary hover:text-secondary cursor-pointer">
-                Schedule a Consultation →
+                Learn More About My Approach
               </CTAButton>
             </div>
           </Animated>
@@ -54,8 +52,8 @@ export default function Secondary() {
         <Animated show={show} delay={180}>
           <div className="relative order-first lg:order-0 h-[32vh] sm:h-[45vh] lg:min-h-full overflow-hidden">
             <Image
-              src="/hero-2.jpg"
-              alt=""
+              src="https://placehold.co/600x400/e8e4d9/5e8b7e"
+              alt="A tranquil image of a misty forest"
               fill
               className="object-cover"
               priority

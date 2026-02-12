@@ -37,22 +37,22 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row gap-y-10 sm:gap-x-24 lg:gap-x-40 sm:ml-auto text-primary">
               <div>
                 <h4 className="font-medium text-[clamp(1.35rem,1.8vw,2.25rem)] lg:text-[clamp(1.8rem,2.2vw,2.5rem)]">
-                  Hours
+                  Office Hours
                 </h4>
                 <p className="mt-1 sm:mt-2 text-[0.95rem] leading-[1.45] sm:text-[1.3rem] sm:leading-[1.7]">
-                  Monday-Friday <br />
-                  10am - 6pm
+                  By Appointment Only
                 </p>
               </div>
               
               <div>
                 <h4 className="font-medium text-[clamp(1.35rem,1.8vw,2.25rem)] lg:text-[clamp(1.8rem,2.2vw,2.5rem)]">
-                  Find
+                  Navigate
                 </h4>
                 <ul className="mt-1 sm:mt-2 space-y-3 text-[0.95rem] leading-[1.45] sm:text-[1.3rem] sm:leading-[1.7] sm:text-right">
                   <li><Link href="/" className="underline">Home</Link></li>
+                  <li><Link href="/about" className="underline">About</Link></li>
+                  <li><Link href="/specialties" className="underline">Specialties</Link></li>
                   <li><Link href="/contact" className="underline">Contact</Link></li>
-                  <li><Link href="/blog" className="underline">Blog</Link></li>
                 </ul>
               </div>
             </div>

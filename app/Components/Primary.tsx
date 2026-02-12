@@ -13,26 +13,26 @@ export default function Primary(){
 
         <Animated show={show} delay={0}>
           <div className="relative mx-auto w-[70%] sm:w-[60%] md:w-[55%] lg:w-[85%] aspect-[2.8/4] overflow-hidden rounded-t-[999px]">
-            <img src="/hero-1.jpg" alt="" className="w-full h-full object-cover object-contain"/>
+            <img src="https://placehold.co/600x400/5e8b7e/f7f9f9" alt="A calming nature scene" className="w-full h-full object-cover object-contain"/>
           </div>
         </Animated>
 
         <div className="text-center sm:mt-0"  style={{ animationDelay: "120ms" }}>
           <Animated show={show} delay={120}>
             <h1 className="font-medium text-primary leading-[1.12] text-[clamp(2.2rem,8vw,3rem)] sm:text-[calc(3.2vw+1.5rem)]">
-              Find steadiness, even when life feels overwhelming
+              Therapy for Anxiety, Trauma & Burnout in Santa Monica
             </h1>
           </Animated>
           <Animated show={show} delay={220}>
             <p className="mt-5 text-primary text-[clamp(1rem,1.05vw,1.15rem)]">
-              Specialized Therapy for Anxiety, Trauma & Burnout in <strong className="text-[1.2rem]">Santa Monica, CA.</strong>
+              Find healing and resilience with a licensed psychologist who understands the pressures of modern life.
             </p>
-            <p className="text-primary/60 text-[0.85rem]">In-person therapy in Santa Monica and secure telehealth across California.</p>
+            <p className="text-primary/60 text-[0.85rem]">In-person and telehealth sessions available for adults in California.</p>
           </Animated>
           <Animated show={show} delay={320}>
             <div className="mt-8">
               <CTAButton className="btn-primary text-[1rem]">
-                Start Your Therapy Journey
+                Schedule a Free Consultation
               </CTAButton>
             </div>
           </Animated>

@@ -7,22 +7,22 @@ import { useReveal } from "./hooks/useReveal";
 const faqs = [
   {
     question: "Do you offer in-person or virtual therapy?",
-    answer: (<>I offer <strong className="text-[1.25rem] text-primary">in-person therapy from my Santa Monica office</strong> as well as <strong className="text-[1.25rem] text-primary">secure telehealth sessions for clients located throughout California</strong>. Together, we can choose the format that best supports your comfort, privacy, and schedule.</>)
+    answer: (<>I offer both in-person therapy from my <strong className="text-[1.25rem] text-primary">Santa Monica office</strong> and secure telehealth sessions for clients located in <strong className="text-[1.25rem] text-primary">California</strong>. We can choose the format that best supports your comfort and schedule.</>)
   },
   {
-    question: "What concerns do you typically help clients with?",
-    answer: (<>I primarily work with <strong className="text-[1.25rem] text-primary">adults experiencing anxiety</strong>, <strong className="text-[1.25rem] text-primary">trauma</strong>, <strong className="text-[1.25rem] text-primary">chronic stress</strong>, <strong className="text-[1.25rem] text-primary">panic</strong>, and <strong className="text-[1.25rem] text-primary">professional burnout</strong>. Many of my clients are high-achieving individuals who appear capable externally yet feel internally overwhelmed, emotionally exhausted, or caught in patterns that no longer serve them.</>)
+    question: "What types of clients do you typically work with?",
+    answer: (<>I frequently work with <strong className="text-[1.25rem] text-primary">high-achieving adults, creatives, and professionals</strong> who are struggling with anxiety, trauma, and burnout. Many of my clients feel 'functional' on the outside but are dealing with a great deal of internal stress and pressure.</>)
   },
   {
-    question: "What is your approach to therapy?",
-    answer: (<>My approach is warm, collaborative and grounded in <strong className="text-[1.25rem] text-primary">evidence-based practices</strong> such as <strong className="text-[1.25rem] text-primary">cognitive-behavioral therapy (CBT)</strong>, <strong className="text-[1.25rem] text-primary">EMDR</strong>, mindfulness and body-oriented techniques. Sessions provide structure and support while allowing space for reflection, insight, and meaningful emotional work.</>)
+    question: "What is your therapeutic approach?",
+    answer: (<>I take a warm, collaborative, and grounded approach to therapy. I integrate evidence-based methods such as <strong className="text-[1.25rem] text-primary">CBT, EMDR, mindfulness-based practices, and body-oriented techniques</strong> to help you understand both the emotional and physiological sides of what you're experiencing.</>)
   },{
-    question:"What can I expect from therapy?",
-    answer:(<>Therapy is a confidential space to slow down, gain clarity and reconnect with yourself. My goal is not only symptom relief but helping you build resilience, deepen self-understanding, and develop a stronger, more compassionate relationship with yourself over time.</>)
+    question:"What can I expect from our work together?",
+    answer:(<>I believe therapy works best when you feel respected, understood, and actively involved in the process. My goal is not just symptom relief, but helping you develop insight, resilience, and a stronger relationship with yourself over time.</>)
   },
   {
     question:"How do I get started?",
-    answer:(<>Getting started is simple. You’re welcome to reach out to schedule a <strong className="text-[1.25rem] text-primary">15-min free consultation</strong> where we can discuss your needs, answer any questions, and determine whether we’re a good fit. From there, we can begin building a thoughtful path forward at a pace that feels comfortable for you.</>)
+    answer:(<>If you're looking for a therapist who combines practical tools with depth-oriented work, I may be a good fit. You can schedule a <strong className="text-[1.25rem] text-primary">free 15-minute consultation</strong> to discuss your needs and see if we're a good fit.</>)
   },{
     question:"Is therapy confidential?",
     answer:(<><strong className="text-[1.25rem] text-primary">Yes.</strong> Confidentiality is a foundational part of therapy. Your privacy is respected and protected in accordance with professional and legal standards.</>)
@@ -39,7 +39,7 @@ export default function FAQ(){
           <div className="relative flex justify-center mb-8 sm:mb-0">
             <Animated show={show} delay={120}>
               <div className="mx-auto w-[45%] sm:w-full aspect-[2.8/5] sm:h-120 lg:h-205 overflow-hidden rounded-t-full">
-                <img src="/faq.jpg" alt="" className="w-full h-full object-cover" />
+                <img src="https://placehold.co/400x550/e8e4d9/5e8b7e" alt="A calming nature image" className="w-full h-full object-cover" />
               </div>
             </Animated>
           </div>
